@@ -2,12 +2,12 @@ const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 module.exports = {
-  "SESSION_ID": process.env.SESSION_ID || "",
+  "levanter_1718c2f82ddeaf4cf1b85bf2d42f7057fe": process.env.SESSION_ID || "",
   "ALIVE_IMG": process.env.ALIVE_IMG || "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/logo.jpg",
   "PREFIX": process.env.PREFIX || ".",
   "AUTO_READ_STATUS": process.env.AUTO_READ_STATUS === 'true',
   "MODE": process.env.MODE || "public",
-  "OWNER_NUMBER": process.env.OWNER_NUMBER || "923072380380",
+  "OWNER_NUMBER": process.env.OWNER_NUMBER || "22896353582",
   "OWNER_NAME": process.env.OWNER_NAME || "Hamza",
   "ALWAYS_ONLINE": process.env.ALWAYS_ONLINE === 'true',
   "PRESENCE": process.env.PRESENCE || "online",
